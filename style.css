@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: hsl(240, 26%, 4%);
+    color: rgb(224, 224, 224);
+}
+.bar{
+    top: 0;
+    left: 0;
+    background-color: #08080de6;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid hsl(0, 100%, 50%);
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.system{
+    color: hsl(346, 100%, 50%);
+    font-weight: 700;
+}
+
+.links a {
+    color: hsl(0, 0%, 70%);
+     text-decoration: none;
+    margin-left: 20px;
+     font-size: 0.85rem;
+}
+
+.links a:hover{
+    color: hsl(346, 100%, 50%);
+}
+
+.heading{
+    text-align: center;
+    padding: 110px 20px 80px 20px;
+    background: linear-gradient(180deg, hsl(0, 83%, 20%) 0%, hsl(240, 26%, 4%) 100%);
+    border-bottom: 3px solid hsl(346, 100%, 50%);
+}
+
+.heading h1 {
+    font-size: 4rem;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 120px;
+    text-shadow: 0 0 15px hsl(346, 100%, 50%), 0 0 30px hsl(346, 100%, 50%);
+}
+
+.body{
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 40px auto;
+}
+
+.titleforsections{
+    color: hsl(0, 0%, 100%);
+    border-left: 5px solid lch(53.59% 91.73 27.9);
+    padding-left: 10px;
+    letter-spacing: 2px;
+    margin: 50px 0 20px 0;
+    font-size: 1.5rem;
+    }
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;}
+.about-box{
+    background-color: hsl(240, 14%, 8%);
+    border: 1px dashed rgb(255, 0, 60);
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+.for {
+    background-color: hsl(240, 14%, 8%);
+    border: 1px solid hsl(352, 52%, 13%);
+    border-radius: 4px;
+}
+
+.for img {
+    width: 100%;
+    height: 220px;
+
+}
+
+.for:hover {
+    border-color: hsl(346, 100%, 50%);
+}
+
+.info { padding: 20px; }
+.info h4 { color: hsl(346, 100%, 50%); 
+    margin-bottom: 8px; font-size: 1.2rem; }
+
+.A {
+    background: hsla(346, 100%, 50%, 0.03);
+    border: 2px dashed hsl(346, 100%, 50%);
+    padding: 25px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.A h3 { color: hsl(0, 0%, 100%); }
+.A p { margin: 6px 0; font-size: 0.95rem; }
+
